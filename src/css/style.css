@@ -1,0 +1,104 @@
+body {
+    width: 100dvw;
+    height: 100dvh;
+    background-image: linear-gradient(hsl(336, 63%, 63%), hsl(225, 70%, 64%));
+    background-size: auto;
+}
+
+main {
+    width: 100dvw;
+    height: 100dvh;
+    padding: 24px 100px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    align-items: center;
+}
+
+.titulo {
+    width: 574px;
+    height: 92px;
+    font-weight: 900;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.descricao {
+    width: 600px;
+    height: 108px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.formulario {
+    background-color: #fff;
+    padding: 40px;
+    width: 680px;
+}
+
+.entrada {
+    margin-bottom: 16px;
+}
+
+.input {
+    width: 596px;
+    height: 70px;
+    border: 6px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.input#input-mensagem {
+    height: 200px;
+}
+
+.input::placeholder {
+    font-weight: 700;
+    font-size: 30px;
+    color: #A8A8A8;
+}
+
+.entrada.invalido .input {
+    border-color: #F52E2E;
+}
+
+.entrada.valido .input {
+    border-color: #00C22B;
+}
+
+.alerta {
+    font-weight: 500;
+    color: #F52E2E;
+    display: none;
+}
+
+.entrada.invalido .alerta {
+    display: block;
+}
+
+.entrada.valido .alerta {
+    display: none;
+}
+
+.aviso {
+    font-weight: 500;
+    font-size: 30px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 596px;
+    height: 82px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #3CCC87;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+}
